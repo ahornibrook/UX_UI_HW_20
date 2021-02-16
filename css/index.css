@@ -20,15 +20,15 @@ h1, h2, h3 , h4, h5, h6 {
   }
 
   /* Navigation dropdown menu */
-.dropdown-menu {
-  background-color: lightseagreen;
-  background-size: cover;
-}
-.dropdown-item:focus, .dropdown-item:hover {
-    color: #16181b;
-    text-decoration: none;
-    background: black;
-}
+  .dropdown-menu {
+    background-color: transparent !important;
+    background-size: cover;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+      color: #16181b;
+      text-decoration: none;
+      background: black;
+  }
 
 /* Jumbotron  */
 .jumbotron {
@@ -52,8 +52,9 @@ h1, h2, h3 , h4, h5, h6 {
 
 .btn-primary{
     background-color: lightseagreen;
-    outline-color: none;
+    border: lightseagreen 2px;
 }
+
 
 /* Cards */
 .content {
@@ -113,3 +114,4 @@ h1, h2, h3 , h4, h5, h6 {
     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
     background-color: white;
+  }
